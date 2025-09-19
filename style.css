@@ -1,0 +1,45 @@
+/* Style untuk halaman */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('Purple-and-Blue-Neon-Sci-Fi-Twitch-Banner.png'); /* Gambar background */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-top: 40px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.container {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+  gap: 30px;
+  width: fit-content;
+  background: rgba(0,0,0,0.5); /* efek transparan */
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.kontak img {
+  width: 180px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.kontak img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.kontak p {
+  margin-top: 10px;
+  font-weight: bold;
+}
